@@ -1,0 +1,5 @@
+-curry
+-redex
+
+curry :: ( (a,b) -> c) -> a -> (b -> c)
+curry f x = \g -> f(x,y)
